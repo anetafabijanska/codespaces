@@ -8,3 +8,5 @@ source ~/.profile
 
 # Uruchomienie komendy sl
 sl
+
+sudo ln -s /usr/games/sl /usr/local/bin/sl
