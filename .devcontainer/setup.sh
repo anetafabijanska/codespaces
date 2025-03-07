@@ -3,10 +3,8 @@
 sudo apt-get update
 sudo apt-get install -y sl
 
-echo "export PATH=$PATH:/usr/games" >> ~/.profile
-source ~/.profile
+echo "export PATH=\$PATH:/usr/games" >> ~/.bashrc
+source ~/.bashrc
 
 # Uruchomienie komendy sl
-sl
-
-sudo ln -s /usr/games/sl /usr/local/bin/sl
+sl  # Wyświetli pociąg na ekranie 

@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.copyOnSelection": true,
+    "breadcrumbs.showKeys": false,
+    "terminal.integrated.sendKeybindingsToShell": true
+}
